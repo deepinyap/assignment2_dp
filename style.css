@@ -1,0 +1,149 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url(images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  background-size: auto;
+  margin: 0;
+  padding-bottom: 150px;
+}
+
+#logo {
+  text-align: left;
+  font-size: 24px;
+  padding-left: 0px;
+  padding-top: 0px;
+  font-weight: 900;
+  padding-bottom: 0
+}
+
+section.top {
+  font-weight: extrabold;
+  margin: 0;
+}
+
+.button {
+  font-weight: bolder;
+  border: 5px;
+  background-color: #f9e42e;
+  color: #121212;
+  margin: 40px;
+  padding: 10px;
+  display: inline;
+  border-radius: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+section.content {
+background-color: #f0efef;
+background-size:cover;
+margin: 0;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 25px;
+color: #606161;
+/* width: 55%; */
+}
+
+.benefits-info {
+  width: 55%;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 25px;
+  color: #033048;
+}
+
+section.testimonial {
+  background-image: url(images/testimonial_bg.jpg);
+  background-size: cover;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0;
+}
+span {
+  padding: 50px;
+}
+/* section.testimonial p:first-of-type{
+  padding-top: 50px;
+  margin: 0;
+}
+section.testimonial  */
+
+section.sign-up {
+  background-color: #f9e42e;
+  padding: 30px;
+}
+
+section.sign-up p {
+  margin: 0;
+  /* padding: 30px; */
+  /* text-align: center; */
+  border: 5px;
+  color: #174a9b;
+  font-weight: 900;
+  background-color: #dcdfe5;
+  border-left: 35px;
+  border-right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 200px;
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+footer {
+  background-color: #121212;
+  text-align: center;
+}
+footer p:first-of-type {
+  color: #f9e42e;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p.last-line {
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+img {
+  size: 75%;
+  display: inline-block;
+}
